@@ -1,0 +1,21 @@
+//gulp 4.0.2 的 老版本写法
+const gulp = require('gulp')
+const webserver = require('gulp-webserver')
+
+
+gulp.task('html',(cb) => {
+    gulp.src('./index.html').pipe(gulp.dest('./dev/'))
+    cb()
+})
+
+gulp.task('webserver', function() {
+    gulp.src('./dev')
+      .pipe(webserver({
+        livereload: true,
+        open: true,
+        port: 8000,
+        // directoryListing: true,
+      }));
+  });
+
+gulp.task('default',gulp.series('html','webserver'))
