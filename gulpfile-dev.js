@@ -78,7 +78,6 @@ function watcher(){
     watch('./*.html',series(copyhtml))
     watch('./src/images/**/*',series(clear('./dev/images'),copyimages))
     watch('./src/icons/**/*',series(copyicons))
-
     watch('./src/styles/**/*',series(packCss))
     watch(['./src/**/*','!./src/libs/**/*','!./src/styles/**/*','!./src/images/**/*','!./src/icons/**/*'],series(packjs))
 }

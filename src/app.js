@@ -2,16 +2,8 @@
 // import {name} from './controllers/name'
 
 //commonjs模块化
-const Name = require('./controllers/name')
-const aaTpl = require('./views/aa.art')
+const indexTpl = require('./views/index.html')
 
-async function getName(){
-    console.log(Name.name)
-    let name = await Name.setName()
-    console.log(name)
-    console.log(name)
-}
-getName()
+const renderedIndexTpl = template.render(indexTpl,{})
 
-const newStr = template.render(aaTpl,{title: 'TomTomTom'})
-console.log(newStr)
+document.querySelector('#app').innerHTML = renderedIndexTpl

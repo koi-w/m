@@ -1,0 +1,23 @@
+@import "../common/color.scss";
+@import '../common/icons.scss';
+
+#app{
+    height: 100%;
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    header{
+        height: 0.44rem;
+    }
+    main{
+        flex: 1;
+    }
+    footer{
+        height: 0.44rem;
+        i{
+            font-family: 'yofont';
+        }
+    }
+}
