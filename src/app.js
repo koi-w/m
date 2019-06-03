@@ -3,7 +3,9 @@
 
 //commonjs模块化
 const indexTpl = require('./views/index.html')
+const { list } = require('./controllers/position')
 
 const renderedIndexTpl = template.render(indexTpl,{})
 
-document.querySelector('#app').innerHTML = renderedIndexTpl
+$('#app').html(renderedIndexTpl)
+list()

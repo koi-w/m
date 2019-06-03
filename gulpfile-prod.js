@@ -4,12 +4,16 @@ const path = require('path')
 const gulpSass = require('gulp-sass')
 const rev = require('gulp-rev')
 const revCollector = require('gulp-rev-collector')
+const cleanCSS = require('gulp-clean-css')
 
 function copyhtml(){
     return src('./*.html').pipe(dest('./dist/'))
 }
 function artTemplate(){
     return src('./node_modules/art-template/lib/template-web.js').pipe(dest('./dist/lib/'))
+}
+function copylibs(){
+    return src('./src/libs/**/*').pipe(dest('./dist/lib/'))
 }
 function copyimages(){
     return src('./src/images/**/*').pipe(dest('./dist/images/'))
@@ -55,6 +59,7 @@ function packjs(){
 function packCss(){
     return src('./src/styles/app.scss')
             .pipe(gulpSass().on('error',gulpSass.logError))
+            .pipe(cleanCSS({compatibility: 'ie8'}))
             .pipe(rev())
             .pipe(dest('./dist/styles'))
             .pipe(rev.manifest())
@@ -66,4 +71,4 @@ function revColl(){
         .pipe(dest('./dist'))
 }
 
-exports.default = series(parallel(packCss,packjs,artTemplate,copyimages,copyicons),copyhtml,revColl)
+exports.default = series(parallel(packCss,packjs,artTemplate,copyimages,copyicons,copylibs),copyhtml,revColl)

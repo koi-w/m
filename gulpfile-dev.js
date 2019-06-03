@@ -14,6 +14,9 @@ function copyhtml(){
 function artTemplate(){
     return src('./node_modules/art-template/lib/template-web.js').pipe(dest('./dev/lib/'))
 }
+function copylibs(){
+    return src('./src/libs/**/*').pipe(dest('./dev/lib/'))
+}
 function copyimages(){
     return src('./src/images/**/*').pipe(dest('./dev/images/'))
 }
@@ -69,6 +72,12 @@ function webserver(){
                 pathRewrite:{
                     '^/api':''
                 }
+            }),
+            proxy('/json',{
+                target: 'http://localhost:9000',
+                pathRewrite:{
+                    '^/json':''
+                }
             })
         ]
       }))
@@ -88,4 +97,4 @@ function clear(target){
     }
 }
 
-exports.default = series(parallel(packCss,packjs,artTemplate,copyimages,copyicons),copyhtml,webserver,watcher)
+exports.default = series(parallel(packCss,packjs,artTemplate,copyimages,copyicons,copylibs),copyhtml,webserver,watcher)

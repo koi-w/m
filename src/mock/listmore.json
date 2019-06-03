@@ -1,0 +1,255 @@
+{
+  "result": [
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "id": 5895262,
+      "positionName": "备案专员/文员",
+      "city": "广州",
+      "createTime": "今天 22:00",
+      "salary": "4k-6k",
+      "companyId": 188704,
+      "companyLogo": "i/image/M00/09/C0/CgpEMljcz_mAP1OWAAA1DPEDEl8213.JPG",
+      "companyName": "悦然",
+      "companyFullName": "广州市悦然化妆品有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "id": 5895299,
+      "positionName": "品控经理/质检经理",
+      "city": "广州",
+      "createTime": "今天 22:00",
+      "salary": "10k-20k",
+      "companyId": 188704,
+      "companyLogo": "i/image/M00/09/C0/CgpEMljcz_mAP1OWAAA1DPEDEl8213.JPG",
+      "companyName": "悦然",
+      "companyFullName": "广州市悦然化妆品有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "id": 5899205,
+      "positionName": "【配送】品牌合作",
+      "city": "北京",
+      "createTime": "今天 20:56",
+      "salary": "20k-40k",
+      "companyId": 50702,
+      "companyLogo": "i/image/M00/6A/05/Cgp3O1gW8zSAUwUsAABMptH-XY087.jpeg",
+      "companyName": "美团点评",
+      "companyFullName": "北京三快在线科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "id": 5899200,
+      "positionName": "【配送】产品运营（留存方向）",
+      "city": "北京",
+      "createTime": "今天 20:56",
+      "salary": "25k-50k",
+      "companyId": 50702,
+      "companyLogo": "i/image/M00/6A/05/Cgp3O1gW8zSAUwUsAABMptH-XY087.jpeg",
+      "companyName": "美团点评",
+      "companyFullName": "北京三快在线科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "id": 5909552,
+      "positionName": "产品经理",
+      "city": "广州",
+      "createTime": "今天 20:52",
+      "salary": "10k-15k",
+      "companyId": 292539,
+      "companyLogo": "i/image2/M00/24/F2/CgoB5lob1iiAd_bWAABOcibCDKQ499.png",
+      "companyName": "掌昆游戏",
+      "companyFullName": "广州掌昆网络科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "id": 5898462,
+      "positionName": "品类运营",
+      "city": "北京",
+      "createTime": "今天 20:51",
+      "salary": "10k-20k",
+      "companyId": 41823,
+      "companyLogo": "i/image2/M01/7C/86/CgoB5lt0B-GAdM5iAAAUaKBOGWA965.jpg",
+      "companyName": "58到家",
+      "companyFullName": "北京五八到家信息技术有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "id": 5908904,
+      "positionName": "中高级Android开发工程师",
+      "city": "北京",
+      "createTime": "今天 20:50",
+      "salary": "15k-30k",
+      "companyId": 3328,
+      "companyLogo": "i/image2/M01/3A/8A/CgotOVzrstyAFTceAAAhmb2dozs979.jpg",
+      "companyName": "好未来",
+      "companyFullName": "北京世纪好未来教育科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "id": 5896288,
+      "positionName": "视觉设计师",
+      "city": "广州",
+      "createTime": "今天 20:43",
+      "salary": "8k-16k",
+      "companyId": 134745,
+      "companyLogo": "i/image/M00/3E/02/Cgp3O1dzdCaAEtKmAAA_2mJ0_q0467.png",
+      "companyName": "探迹科技",
+      "companyFullName": "广州探迹科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "id": 5896291,
+      "positionName": "渠道经理",
+      "city": "广州",
+      "createTime": "今天 20:43",
+      "salary": "10k-20k",
+      "companyId": 134745,
+      "companyLogo": "i/image/M00/3E/02/Cgp3O1dzdCaAEtKmAAA_2mJ0_q0467.png",
+      "companyName": "探迹科技",
+      "companyFullName": "广州探迹科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "id": 5895939,
+      "positionName": "用户研究工程师",
+      "city": "深圳",
+      "createTime": "今天 20:39",
+      "salary": "8k-15k",
+      "companyId": 557341,
+      "companyLogo": "i/image2/M01/23/7D/CgoB5lzBhe2APJeSAAASgolr4qg769.jpg",
+      "companyName": "深圳康佳电子科技有限公司",
+      "companyFullName": "深圳康佳电子科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "id": 5896467,
+      "positionName": "Blockchain BD director",
+      "city": "北京",
+      "createTime": "今天 20:39",
+      "salary": "12k-24k",
+      "companyId": 389739,
+      "companyLogo": "i/image3/M00/52/11/Cgq2xlsD1ZGAXolEAAd9HN0e7n0422.png",
+      "companyName": "ByteTrade",
+      "companyFullName": "北京字节犇牛科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "id": 5896554,
+      "positionName": "前端工程师",
+      "city": "北京",
+      "createTime": "今天 20:39",
+      "salary": "20k-40k",
+      "companyId": 389739,
+      "companyLogo": "i/image3/M00/52/11/Cgq2xlsD1ZGAXolEAAd9HN0e7n0422.png",
+      "companyName": "ByteTrade",
+      "companyFullName": "北京字节犇牛科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "id": 5899008,
+      "positionName": "人力资源招聘总监",
+      "city": "北京",
+      "createTime": "今天 20:38",
+      "salary": "20k-40k",
+      "companyId": 356,
+      "companyLogo": "image1/M00/15/99/CgYXBlUKqGWAEiHsAABgvyF4n6Y615.jpg",
+      "companyName": "捷通华声",
+      "companyFullName": "北京捷通华声科技股份有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "id": 5895003,
+      "positionName": "媒介采购文员",
+      "city": "广州",
+      "createTime": "今天 20:34",
+      "salary": "6k-8k",
+      "companyId": 263558,
+      "companyLogo": "i/image2/M00/02/4E/CgoB5lnAgyiASur8AABVk26CDFY041.png",
+      "companyName": "茉莉传媒",
+      "companyFullName": "广州幸福家科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "id": 5909077,
+      "positionName": "电商物流订单专员",
+      "city": "广州",
+      "createTime": "今天 20:33",
+      "salary": "4k-6k",
+      "companyId": 35240,
+      "companyLogo": "i/image3/M00/1E/5B/CgpOIFqPxYqAQxuHAAAbc_JjGHI591.png",
+      "companyName": "广州优识",
+      "companyFullName": "广州优识科技资讯股份有限公司"
+    },
+    {
+      "logger[traceCapable]": "true",
+      "logger[name]": "com.lagou.entity.mobile.MobilePosition",
+      "id": "5899798",
+      "positionName": "【配送】品牌合作",
+      "city": "北京",
+      "createTime": "今天 20:56",
+      "salary": "200k-400k",
+      "companyId": "50452",
+      "companyLogo": "i/image/M00/6A/05/Cgp3O1gW8zSAUwUsAABMptH-XY087.jpeg",
+      "companyName": "美团点评",
+      "companyFullName": "北京三快在线科技有限公司"
+    },
+    {
+      "logger[traceCapable]": "true",
+      "logger[name]": "com.lagou.entity.mobile.MobilePosition",
+      "id": "7845784",
+      "positionName": "【配送】品牌合作",
+      "city": "北京",
+      "createTime": "今天 20:56",
+      "salary": "200k-400k",
+      "companyId": "50452",
+      "companyLogo": "i/image/M00/6A/05/Cgp3O1gW8zSAUwUsAABMptH-XY087.jpeg",
+      "companyName": "美团点评",
+      "companyFullName": "北京三快在线科技有限公司"
+    }
+  ]
+}
