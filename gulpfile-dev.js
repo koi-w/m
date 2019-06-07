@@ -78,6 +78,13 @@ function webserver(){
                 pathRewrite:{
                     '^/json':''
                 }
+            }),
+            proxy('/ymt',{
+                target: 'https://www.ymatou.com',
+                changeOrigin: true,
+                pathRewrite:{
+                    '^/ymt':''
+                }
             })
         ]
       }))
