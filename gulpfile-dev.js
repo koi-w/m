@@ -27,7 +27,7 @@ function packjs(){
     return src('./src/**.*').pipe(webpackStream({
         mode : 'development',
         entry : {
-            app : './src/app.js'
+            app : './src/app.js' 
         },
         output : {
             filename : '[name].js',
@@ -68,6 +68,7 @@ function webserver(){
         middleware : [
             proxy('/api',{
                 target: 'https://m.lagou.com',
+                // target: 'https://m.juooo.com',
                 changeOrigin: true,     //访问不同的域名，设置为true
                 pathRewrite:{
                     '^/api':''
@@ -84,6 +85,13 @@ function webserver(){
                 changeOrigin: true,
                 pathRewrite:{
                     '^/ymt':''
+                }
+            }),
+            proxy('/juooo',{
+                target: 'https://m.juooo.com',
+                changeOrigin: true,
+                pathRewrite:{
+                    '^/juooo':''
                 }
             })
         ]

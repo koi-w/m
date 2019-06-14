@@ -1,0 +1,11 @@
+{{each _list}}
+<div data-id='{{$value["id"]}}' class="swiper-slide">
+        <div class="theater-show-date">
+            <p>{{$value['show_time']}}</p>
+            <span></span>
+        </div>
+        <a href="{{$value['schedular_url']}}" class="theater-show-pic">
+            <img src="{{$value['pic']}}" alt="">
+        </a>
+    </div>
+{{/each}}

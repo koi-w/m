@@ -1,12 +1,13 @@
 import Router from './router/'
+import Name from './controllers/name'
+
 
 new Router({
     mode : 'hash',
 })
 
-// import Name from './controllers/name'
 // Name.test()
-
+// name()
 // router.init()
 
 // import showlistController from './controllers/showlist'

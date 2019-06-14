@@ -1,0 +1,13 @@
+{{each _result}}
+<li data-id="{{$value['schedular_id']}}">
+    <div class="show-icon">
+        <a href="javascript:void(0)" target="_top"><img src="{{$value['pic']}}" alt=""></a>
+    </div>
+    <div class="show-desc">
+        <p class="show-date"><strong>{{$value['show_time_top']}}</strong></p>
+        <a href="javascript:void(0)" target="_top"><h3>{{$value['name']}}</h3></a>
+        <p class="show-address">{{$value['venue_name']}}</p>
+        <p class="show-price"><strong>￥{{$value['min_price']}}</strong>起</p>
+    </div>
+</li>
+{{/each}}

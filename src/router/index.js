@@ -4,6 +4,7 @@ import showlist from '../controllers/showlist'
 import theatre from '../controllers/theatre'
 import ticketPrice from '../controllers/ticketPrice'
 import mine from '../controllers/mine'
+import search from '../controllers/search'
 
 export default class Router {
   constructor(obj) {
@@ -13,10 +14,11 @@ export default class Router {
     this.routes = {
       '/index': index,
       '/index/home': home,
-      '/index/showlist': showlist,
       '/index/home/theatre': theatre,
       '/index/home/ticketPrice': ticketPrice,
-      '/index/home/mine': mine
+      '/index/home/mine': mine,
+      '/index/showlist': showlist,
+      '/index/search': search,
     }
     // 组件挂载根元素
     this.root = $('#main')
@@ -74,7 +76,7 @@ export default class Router {
       var oldURL = e.oldURL.split('#')[1];
     }
     // 获取当前路径,默认'/index'
-    console.log(location.hash)
+    // console.log(location.hash)
     var currentURL = location.hash.slice(1).split('?')[0] || '/index/home';
     this.loadView(currentURL)
   }
@@ -217,6 +219,6 @@ export default class Router {
    * @param  item 当前router对象
    */
   navActive(item) {
-    $('nav a').filter(`[href="#${item}"]`).closest('li').addClass('active').siblings().removeClass('active')
+    $('footer a').filter(`[href="#${item}"]`).closest('li').addClass('active').siblings().removeClass('active')
   }
 }
